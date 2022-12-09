@@ -1,8 +1,144 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1a1a1a;
+}
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 16px;
+}
+.menu {
+  font-size: 1em;
+  text-decoration: none;
+  padding: 8px;
+  color: #1a1a1a;
+}
+#logo {
+  height: 50px;
+  size: 60px;
+}
 
-*/
+header {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 600px;
+}
+.headerinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.headertxt {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+p {
+  font-size: 1em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.onspotify {
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 12px;
+}
+
+.section1 .icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 14px 16px;
+  text-align: center;
+  margin: 50px 0 60px 0;
+}
+
+.iconTxt {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#image2,
+#image3,
+#image4 {
+  display: block;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 10;
+}
+
+.middlesect {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.section2 {
+  background-color: #00b172;
+  color: white;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3 {
+  text-align: left;
+}
+
+.extrainfo {
+  margin-right: 180px;
+  margin-left: 50px;
+}
+.yeezy {
+  font-weight: 800;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 12px;
+  margin-left: 50px;
+}
+.text3 {
+  font-size: 1em;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.icon {
+  width: 30%;
+}
+
+.iconBigText {
+  color: #00b172;
+}
+.section2 .section3 .section4 .section5 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 14px 16px;
+  text-align: center;
+  margin: 50px 0 60px 0;
+}
+#image5 {
+  height: 100px;
+  align-items: center;
+  margin-right: 120px;
+}
+#image6 {
+  height: 350px;
+  padding: 60px;
+}
